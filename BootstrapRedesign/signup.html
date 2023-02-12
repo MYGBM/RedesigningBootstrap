@@ -33,23 +33,23 @@
                 <h2 class="text-center">Sign up</h2>
                 <div class="mb-3">
                     <label class="fw-bold" for="username">Enter username *</label>
-                    <input class="form-control" type="text" name="name" placeholder="Username" required="">
+                    <input class="form-control" type="text" name="name" placeholder="Username" required minlength="5" maxlength="15">
                 </div>
                 <div class="mb-3">
                     <label class="fw-bold" for="password">Enter password *</label>
-                    <input class="form-control" type="text" name="name" placeholder="Password" required="">
+                    <input class="form-control" type="text" name="name" placeholder="Password" required="" minlength="8" maxlength="15">
                 </div>
                 <div class="mb-3">
                     <label class="fw-bold" for="passagain">Enter password again *</label>
-                    <input class="form-control" type="text" name="name" placeholder="Confirm Password" required="">
+                    <input class="form-control" type="text" name="name" placeholder="Confirm Password" required="" minlength="5" maxlength="15">
                 </div>
                 <div class="mb-3">
                     <label class="fw-bold" for="email">Enter email *</label>
-                    <input class="form-control" type="text" name="name" placeholder="Email " required="">
+                    <input class="form-control" type="text" name="name" placeholder="Email " required="" minlength="15" maxlength="25">
                 </div>
                 <div class="mb-3">
                     <label style="border-radius: 10px;" for="files" class="border-dark border p-2 text-dark"><span ><img src="./icons/camera-fill.svg" alt=""></span> Select Profile Image</label>
-                    <input class="form-control visually-hidden" id="files" type="file">
+                    <input class="form-control visually-hidden" id="files" type="file" required>
                 </div>
                 <div class="text-center mb-3"><button class="btn btn-dark" type="submit" style="background: var(--bs-gray-900);">Sign UP</button></div>
                 

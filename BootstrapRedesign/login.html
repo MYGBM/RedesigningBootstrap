@@ -38,20 +38,27 @@
         <section class="contact-clean">
             <form method="post">
                 <h2 class="text-center">Log in</h2>
-                <div class="mb-3"><div class="input-group"><span class="input-group-text"><img src="./icons/person-fill.svg"></img></span><input class="form-control" placeholder="Username" type="text" /></div></div>
+                <div class="mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text">
+                            <img src="./icons/person-fill.svg"></img>
+                        </span>
+                        <input class="form-control" placeholder="Username" type="text" required minlength="5" maxlength="15"/>
+                    </div>
+                </div>
                 <div class="mb-3">
                     <div class="input-group">
                         <span class="input-group-text">
                             <img src="./icons/key-fill.svg" />
                         </span>
-                        <input class="form-control" name="password" id="password" placeholder="Password" type="text" />
+                        <input class="form-control" name="password" id="password" placeholder="Password" type="password" required="" minlength="8" maxlength="15"/>
                         <img src="./icons/eye-slash-fill.svg" id="togglePassword"/>
                     </div>
                 </div>
-                <div class="mb-3"></div>
-                <div class="mb-3"></div>
-                <div class="mb-3"></div>
-                <div class="text-center mb-3"><button class="btn btn-dark" type="submit" style="background: var(--bs-gray-900);">Log In</button></div>
+               
+                <div class="text-center mb-3">
+                    <button class="btn btn-dark" type="submit" style="background: var(--bs-gray-900);">Log In</button>
+                </div>
 
                 <hr class="my-4">
 
